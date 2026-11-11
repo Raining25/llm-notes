@@ -269,7 +269,7 @@ $$
 
 也就是说：**Embedding 并不是直接拿 Token ID 进行数学计算，而是使用 Token ID 查找对应的可训练向量。**
 
-### 2. 输入数据的维度变化
+### 2、输入数据的维度变化
 
 假设输入包含 5 个 Token，每个 Token 的 Embedding 维度为 768。
 经过 Embedding 后：
