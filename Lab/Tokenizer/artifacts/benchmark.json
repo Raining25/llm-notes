@@ -1,0 +1,52 @@
+{
+  "python": "3.11.5",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "corpus": "D:\\A_Learning_File\\USTC\\LLM\\llm-notes\\Lab\\Tokenizer\\data\\tinyshakespeare.txt",
+  "corpus_sha256": "caad989adf87f2482e346c9a77d1fb03c6c033aa8689e2e97aee2de90b0f8839",
+  "train_characters": 89998,
+  "test_characters": 10002,
+  "requested_merges": 256,
+  "min_frequency": 2,
+  "repeats": 1,
+  "implementations": {
+    "naive": {
+      "train_seconds": [
+        7.837181000038981
+      ],
+      "train_median_seconds": 7.837181000038981,
+      "encode_seconds": [
+        0.007461299654096365
+      ],
+      "encode_median_seconds": 0.007461299654096365,
+      "vocabulary_size": 512,
+      "merges": 256,
+      "held_out_tokens": 5855,
+      "roundtrip_ok": true,
+      "work_counters": {
+        "pair_visits": 7573006,
+        "pieces_visited": 8245248
+      }
+    },
+    "optimized": {
+      "train_seconds": [
+        0.1097006001509726
+      ],
+      "train_median_seconds": 0.1097006001509726,
+      "encode_seconds": [
+        0.007240499835461378
+      ],
+      "encode_median_seconds": 0.007240499835461378,
+      "vocabulary_size": 512,
+      "merges": 256,
+      "held_out_tokens": 5855,
+      "roundtrip_ok": true,
+      "work_counters": {
+        "pair_visits": 128380,
+        "pieces_visited": 15911
+      }
+    }
+  },
+  "identical_vocabulary_merges_and_ids": true,
+  "training_speedup": 71.4415508142459,
+  "encoding_speedup": 1.030495107195996
+}
