@@ -1,6 +1,6 @@
 # Tokenizer（分词器）
 ## 一、定义
-Tokenizer（分词器）负责把文本转换成模型可处理的 token ID，也能把 token ID 还原成文本。
+Tokenizer 负责把文本转换成模型可处理的 token ID，也能把 token ID 还原成文本。
 
 例如，用户输入：I love machine learning.
 
